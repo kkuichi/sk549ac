@@ -1,0 +1,33 @@
+Loading dataset into df, sorting by date and mapping target 4->1...
+Done!
+(1600000, 4)
+Train size: 5000
+Test size: 1595000
+
+Loading GloVe embeddings...
+GloVe loaded.
+
+Creating train vectors: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 5000/5000 [00:00<00:00, 19814.90it/s]
+Creating test vectors: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1595000/1595000 [01:20<00:00, 19756.42it/s]
+
+Training static_random_forest...
+Predicting all test samples for static_random_forest...
+Prediction finished.
+Calculating metrics for static_random_forest: 100%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3190/3190 [11:46<00:00,  4.52it/s]
+Metrics saved to: ../results/static_random_forest_metrics.csv
+
+Final static cumulative metrics:
+                  model              window_type  train_size  test_size  accuracy  precision    recall        f1  balanced_accuracy
+0  static_random_forest  final_static_cumulative        5000    1595000  0.679628   0.640924  0.816203  0.718021           0.679697
+
+Training static_logistic_regression...
+D:\MyStuff\shkola\TUKE\baka\Final\venv\Lib\site-packages\sklearn\linear_model\_logistic.py:1184: FutureWarning: 'n_jobs' has no effect since 1.8 and will be removed in 1.10. You provided 'n_jobs=-1', please leave it unspecified.
+  warnings.warn(msg, category=FutureWarning)
+Predicting all test samples for static_logistic_regression...
+Prediction finished.
+Calculating metrics for static_logistic_regression: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 3190/3190 [11:38<00:00,  4.57it/s]
+Metrics saved to: ../results/static_logistic_regression_metrics.csv
+
+Final static cumulative metrics:
+                        model              window_type  train_size  test_size  accuracy  precision    recall        f1  balanced_accuracy
+0  static_logistic_regression  final_static_cumulative        5000    1595000  0.700577   0.664165  0.810855  0.730216           0.700633

@@ -1,0 +1,490 @@
+Loading dataset into df, sorting by date and mapping target 4->1...
+Done!
+(1600000, 4)
+Skipped first 5000 rows. Online training starts from row 5001.
+
+Loading GloVe embeddings for naive_bayes...
+GloVe loaded.
+
+Training naive_bayes:   2%|▉                                                      | 26600/1595000 [00:08<08:49, 2962.94it/s]
+Drift detected | Model: naive_bayes | Tweet index: 26625 | Original index: 31625 | Date: 2009-04-18 13:23:59
+Training naive_bayes:   6%|███▍                                                   | 98563/1595000 [00:31<08:16, 3012.87it/s]
+Drift detected | Model: naive_bayes | Tweet index: 98817 | Original index: 103817 | Date: 2009-05-01 22:00:45
+Training naive_bayes:   6%|███▍                                                   | 99809/1595000 [00:32<08:28, 2938.17it/s]Processed: 100000 tweets | Original index: 105000 | Model: naive_bayes | Accuracy: 0.6306 | Precision: 0.7599 | Recall: 0.5368 | F1: 0.6292
+Training naive_bayes:   7%|███▌                                                  | 106519/1595000 [00:34<08:02, 3083.57it/s]
+Drift detected | Model: naive_bayes | Tweet index: 106721 | Original index: 111721 | Date: 2009-05-02 02:00:29
+Training naive_bayes:   7%|███▋                                                  | 108427/1595000 [00:35<07:50, 3158.31it/s]
+Drift detected | Model: naive_bayes | Tweet index: 108673 | Original index: 113673 | Date: 2009-05-02 03:00:23
+Training naive_bayes:  12%|██████▌                                               | 192950/1595000 [01:01<07:19, 3192.72it/s]
+Drift detected | Model: naive_bayes | Tweet index: 193249 | Original index: 198249 | Date: 2009-05-10 00:16:30
+Training naive_bayes:  13%|██████▊                                               | 199784/1595000 [01:04<07:23, 3147.43it/s]Processed: 200000 tweets | Original index: 205000 | Model: naive_bayes | Accuracy: 0.6362 | Precision: 0.7627 | Recall: 0.5463 | F1: 0.6366
+Training naive_bayes:  14%|███████▌                                              | 222788/1595000 [01:11<07:10, 3184.80it/s]
+Drift detected | Model: naive_bayes | Tweet index: 222913 | Original index: 227913 | Date: 2009-05-11 23:38:55
+Training naive_bayes:  18%|█████████▋                                            | 286241/1595000 [01:31<06:58, 3123.99it/s]
+Drift detected | Model: naive_bayes | Tweet index: 286369 | Original index: 291369 | Date: 2009-05-17 18:29:33
+Training naive_bayes:  19%|██████████▏                                           | 299829/1595000 [01:36<06:48, 3171.88it/s]Processed: 300000 tweets | Original index: 305000 | Model: naive_bayes | Accuracy: 0.6355 | Precision: 0.7711 | Recall: 0.5480 | F1: 0.6407
+Training naive_bayes:  20%|██████████▉                                           | 323449/1595000 [01:43<06:58, 3038.46it/s]
+Drift detected | Model: naive_bayes | Tweet index: 323521 | Original index: 328521 | Date: 2009-05-18 06:46:44
+Training naive_bayes:  25%|█████████████▌                                        | 399984/1595000 [02:08<06:33, 3035.34it/s]Processed: 400000 tweets | Original index: 405000 | Model: naive_bayes | Accuracy: 0.6335 | Precision: 0.7779 | Recall: 0.5468 | F1: 0.6422
+Training naive_bayes:  26%|██████████████▎                                       | 420921/1595000 [02:14<06:08, 3188.19it/s]
+Drift detected | Model: naive_bayes | Tweet index: 421089 | Original index: 426089 | Date: 2009-05-29 11:15:15
+Training naive_bayes:  30%|████████████████                                      | 474483/1595000 [02:31<06:06, 3054.46it/s]
+Drift detected | Model: naive_bayes | Tweet index: 474657 | Original index: 479657 | Date: 2009-05-30 00:32:55
+Training naive_bayes:  31%|████████████████▉                                     | 499743/1595000 [02:40<05:45, 3166.75it/s]Processed: 500000 tweets | Original index: 505000 | Model: naive_bayes | Accuracy: 0.6334 | Precision: 0.7815 | Recall: 0.5483 | F1: 0.6445
+Training naive_bayes:  33%|█████████████████▋                                    | 521232/1595000 [02:46<05:36, 3187.30it/s]
+Drift detected | Model: naive_bayes | Tweet index: 521537 | Original index: 526537 | Date: 2009-05-30 11:30:09
+Training naive_bayes:  37%|███████████████████▉                                  | 588278/1595000 [03:08<05:16, 3176.43it/s]
+Drift detected | Model: naive_bayes | Tweet index: 588481 | Original index: 593481 | Date: 2009-05-31 02:50:16
+Training naive_bayes:  38%|████████████████████▎                                 | 599805/1595000 [03:12<05:43, 2899.18it/s]Processed: 600000 tweets | Original index: 605000 | Model: naive_bayes | Accuracy: 0.6320 | Precision: 0.7821 | Recall: 0.5478 | F1: 0.6443
+Training naive_bayes:  44%|███████████████████████▋                              | 699871/1595000 [03:44<04:53, 3048.55it/s]Processed: 700000 tweets | Original index: 705000 | Model: naive_bayes | Accuracy: 0.6313 | Precision: 0.7798 | Recall: 0.5477 | F1: 0.6435
+Training naive_bayes:  48%|█████████████████████████▊                            | 763372/1595000 [04:05<04:26, 3115.27it/s]
+Drift detected | Model: naive_bayes | Tweet index: 763585 | Original index: 768585 | Date: 2009-06-01 20:10:32
+Training naive_bayes:  50%|███████████████████████████                           | 799806/1595000 [04:16<04:12, 3150.78it/s]Processed: 800000 tweets | Original index: 805000 | Model: naive_bayes | Accuracy: 0.6298 | Precision: 0.7787 | Recall: 0.5446 | F1: 0.6409
+Training naive_bayes:  56%|██████████████████████████████▍                       | 899938/1595000 [04:48<04:18, 2686.89it/s]Processed: 900000 tweets | Original index: 905000 | Model: naive_bayes | Accuracy: 0.6290 | Precision: 0.7773 | Recall: 0.5425 | F1: 0.6390
+Training naive_bayes:  57%|██████████████████████████████▋                       | 906464/1595000 [04:51<03:40, 3125.50it/s]
+Drift detected | Model: naive_bayes | Tweet index: 906689 | Original index: 911689 | Date: 2009-06-05 11:44:02
+Training naive_bayes:  60%|████████████████████████████████▍                     | 956843/1595000 [05:07<03:37, 2931.95it/s]
+Drift detected | Model: naive_bayes | Tweet index: 957089 | Original index: 962089 | Date: 2009-06-06 00:45:09
+Training naive_bayes:  63%|█████████████████████████████████▊                    | 999767/1595000 [05:20<03:06, 3199.94it/s]Processed: 1000000 tweets | Original index: 1005000 | Model: naive_bayes | Accuracy: 0.6295 | Precision: 0.7788 | Recall: 0.5437 | F1: 0.6404
+Training naive_bayes:  63%|█████████████████████████████████▏                   | 1000404/1595000 [05:21<03:09, 3139.23it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1000545 | Original index: 1005545 | Date: 2009-06-06 10:32:23
+Training naive_bayes:  67%|███████████████████████████████████▋                 | 1072300/1595000 [05:45<02:51, 3040.00it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1072353 | Original index: 1077353 | Date: 2009-06-07 01:35:43
+Training naive_bayes:  69%|████████████████████████████████████▌                | 1099755/1595000 [05:54<02:45, 2999.47it/s]Processed: 1100000 tweets | Original index: 1105000 | Model: naive_bayes | Accuracy: 0.6296 | Precision: 0.7792 | Recall: 0.5444 | F1: 0.6409
+Training naive_bayes:  69%|████████████████████████████████████▋                | 1105000/1595000 [05:56<02:38, 3096.33it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1105249 | Original index: 1110249 | Date: 2009-06-07 09:00:16
+Training naive_bayes:  75%|███████████████████████████████████████▌             | 1189675/1595000 [06:24<02:10, 3102.56it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1189985 | Original index: 1194985 | Date: 2009-06-15 04:19:01
+Training naive_bayes:  75%|███████████████████████████████████████▊             | 1199770/1595000 [06:27<02:12, 2976.66it/s]Processed: 1200000 tweets | Original index: 1205000 | Model: naive_bayes | Accuracy: 0.6296 | Precision: 0.7774 | Recall: 0.5442 | F1: 0.6402
+Training naive_bayes:  77%|█████████████████████████████████████████            | 1235995/1595000 [06:40<01:57, 3067.28it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1236129 | Original index: 1241129 | Date: 2009-06-15 14:49:58
+Training naive_bayes:  81%|██████████████████████████████████████████▊          | 1289151/1595000 [06:58<02:06, 2408.33it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1289153 | Original index: 1294153 | Date: 2009-06-16 02:02:26
+Training naive_bayes:  82%|███████████████████████████████████████████▏         | 1299982/1595000 [07:01<01:37, 3036.91it/s]Processed: 1300000 tweets | Original index: 1305000 | Model: naive_bayes | Accuracy: 0.6296 | Precision: 0.7766 | Recall: 0.5433 | F1: 0.6393
+Training naive_bayes:  83%|███████████████████████████████████████████▊         | 1319834/1595000 [07:08<01:30, 3029.33it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1320129 | Original index: 1325129 | Date: 2009-06-16 08:53:11
+Training naive_bayes:  88%|██████████████████████████████████████████████▌      | 1399963/1595000 [07:35<01:01, 3148.22it/s]Processed: 1400000 tweets | Original index: 1405000 | Model: naive_bayes | Accuracy: 0.6379 | Precision: 0.7521 | Recall: 0.5431 | F1: 0.6307
+Training naive_bayes:  90%|███████████████████████████████████████████████▋     | 1434402/1595000 [07:46<00:53, 3020.60it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1434593 | Original index: 1439593 | Date: 2009-06-18 23:41:57
+Training naive_bayes:  94%|█████████████████████████████████████████████████▊   | 1499741/1595000 [08:08<00:30, 3084.94it/s]Processed: 1500000 tweets | Original index: 1505000 | Model: naive_bayes | Accuracy: 0.6476 | Precision: 0.7247 | Recall: 0.5431 | F1: 0.6209
+Training naive_bayes:  99%|████████████████████████████████████████████████████▏| 1571567/1595000 [08:32<00:07, 3098.01it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1571777 | Original index: 1576777 | Date: 2009-06-24 22:16:39
+Training naive_bayes: 100%|████████████████████████████████████████████████████▉| 1593666/1595000 [08:39<00:00, 3047.07it/s]
+Drift detected | Model: naive_bayes | Tweet index: 1593697 | Original index: 1598697 | Date: 2009-06-25 09:51:41
+Training naive_bayes: 100%|█████████████████████████████████████████████████████| 1595000/1595000 [08:39<00:00, 3067.86it/s]
+            model  tweet_index  original_tweet_index                 date            window_type  accuracy  precision    recall        f1  balanced_accuracy
+3185  naive_bayes      1593000               1598000  2009-06-25 09:30:31  cumulative_save_every  0.655669   0.701365  0.543094  0.612165           0.655753
+3186  naive_bayes      1593500               1598500  2009-06-25 09:45:04  cumulative_save_every  0.655709   0.701241  0.543094  0.612118           0.655757
+3187  naive_bayes      1594000               1599000  2009-06-25 10:01:34  cumulative_save_every  0.655701   0.701031  0.543094  0.612038           0.655714
+3188  naive_bayes      1594500               1599500  2009-06-25 10:14:17  cumulative_save_every  0.655700   0.700835  0.543094  0.611963           0.655678
+3189  naive_bayes      1595000               1600000  2009-06-25 10:28:31  cumulative_save_every  0.655725   0.700684  0.543094  0.611906           0.655667
+
+Training finished for naive_bayes.
+Metrics saved to: D:\MyStuff\shkola\TUKE\baka\Final\results\naive_bayes_metrics.csv
+Daily metrics saved to: D:\MyStuff\shkola\TUKE\baka\Final\results\naive_bayes_daily_metrics.csv
+
+Final cumulative metrics:
+         model       window_type  tweets_processed  skip_rows  accuracy  precision    recall        f1  balanced_accuracy
+0  naive_bayes  final_cumulative           1595000       5000  0.655725   0.700684  0.543094  0.611906           0.655667
+Loading dataset into df, sorting by date and mapping target 4->1...
+Done!
+(1600000, 4)
+Skipped first 5000 rows. Online training starts from row 5001.
+
+Loading GloVe embeddings for logistic_regression...
+GloVe loaded.
+
+Training logistic_regression:   6%|████████████▋                                                                                                                                                                                             | 99991/1595000 [00:21<05:15, 4736.87it/s]Processed: 100000 tweets | Original index: 105000 | Model: logistic_regression | Accuracy: 0.6657 | Precision: 0.7103 | Recall: 0.7217 | F1: 0.7160
+Training logistic_regression:  13%|█████████████████████████▏                                                                                                                                                                               | 199863/1595000 [00:42<04:56, 4709.03it/s]Processed: 200000 tweets | Original index: 205000 | Model: logistic_regression | Accuracy: 0.6666 | Precision: 0.7106 | Recall: 0.7230 | F1: 0.7167
+Training logistic_regression:  13%|█████████████████████████▍                                                                                                                                                                               | 202210/1595000 [00:43<04:59, 4653.03it/s]
+Drift detected | Model: logistic_regression | Tweet index: 202592 | Original index: 207592 | Date: 2009-05-10 05:03:36
+Training logistic_regression:  18%|███████████████████████████████████▎                                                                                                                                                                     | 279788/1595000 [01:00<04:41, 4672.82it/s]
+Drift detected | Model: logistic_regression | Tweet index: 280000 | Original index: 285000 | Date: 2009-05-17 11:20:53
+Training logistic_regression:  18%|████████████████████████████████████                                                                                                                                                                     | 286282/1595000 [01:01<04:43, 4613.71it/s]
+Drift detected | Model: logistic_regression | Tweet index: 286496 | Original index: 291496 | Date: 2009-05-17 18:35:47
+Training logistic_regression:  18%|████████████████████████████████████▏                                                                                                                                                                    | 286754/1595000 [01:01<04:42, 4635.16it/s]
+Drift detected | Model: logistic_regression | Tweet index: 286912 | Original index: 291912 | Date: 2009-05-17 20:12:29
+Training logistic_regression:  18%|████████████████████████████████████▎                                                                                                                                                                    | 287708/1595000 [01:01<04:38, 4695.85it/s]
+Drift detected | Model: logistic_regression | Tweet index: 287744 | Original index: 292744 | Date: 2009-05-17 21:10:13
+
+Drift detected | Model: logistic_regression | Tweet index: 288096 | Original index: 293096 | Date: 2009-05-17 21:28:59
+Training logistic_regression:  18%|████████████████████████████████████▍                                                                                                                                                                    | 288653/1595000 [01:02<04:39, 4675.19it/s]
+Drift detected | Model: logistic_regression | Tweet index: 288704 | Original index: 293704 | Date: 2009-05-17 22:04:57
+Training logistic_regression:  19%|█████████████████████████████████████▊                                                                                                                                                                   | 299580/1595000 [01:04<04:33, 4733.83it/s]Processed: 300000 tweets | Original index: 305000 | Model: logistic_regression | Accuracy: 0.6715 | Precision: 0.7189 | Recall: 0.7326 | F1: 0.7257
+Training logistic_regression:  21%|█████████████████████████████████████████▎                                                                                                                                                               | 328235/1595000 [01:10<04:30, 4676.75it/s]
+Drift detected | Model: logistic_regression | Tweet index: 328512 | Original index: 333512 | Date: 2009-05-18 07:48:53
+Training logistic_regression:  23%|█████████████████████████████████████████████▉                                                                                                                                                           | 364875/1595000 [01:18<04:17, 4770.21it/s]
+Drift detected | Model: logistic_regression | Tweet index: 365120 | Original index: 370120 | Date: 2009-05-22 07:31:40
+Training logistic_regression:  25%|██████████████████████████████████████████████████▎                                                                                                                                                      | 399581/1595000 [01:25<04:31, 4405.45it/s]Processed: 400000 tweets | Original index: 405000 | Model: logistic_regression | Accuracy: 0.6744 | Precision: 0.7246 | Recall: 0.7399 | F1: 0.7322
+Training logistic_regression:  25%|██████████████████████████████████████████████████▌                                                                                                                                                      | 400939/1595000 [01:26<04:35, 4328.49it/s]
+Drift detected | Model: logistic_regression | Tweet index: 401216 | Original index: 406216 | Date: 2009-05-29 00:27:47
+Training logistic_regression:  27%|██████████████████████████████████████████████████████▎                                                                                                                                                  | 431328/1595000 [01:32<04:17, 4525.59it/s]
+Drift detected | Model: logistic_regression | Tweet index: 431552 | Original index: 436552 | Date: 2009-05-29 13:54:21
+Training logistic_regression:  29%|█████████████████████████████████████████████████████████▊                                                                                                                                               | 459178/1595000 [01:38<04:22, 4319.39it/s]
+Drift detected | Model: logistic_regression | Tweet index: 459552 | Original index: 464552 | Date: 2009-05-29 20:35:20
+Training logistic_regression:  30%|████████████████████████████████████████████████████████████▍                                                                                                                                            | 479734/1595000 [01:43<04:01, 4617.17it/s]
+Drift detected | Model: logistic_regression | Tweet index: 480032 | Original index: 485032 | Date: 2009-05-30 01:51:17
+Training logistic_regression:  31%|██████████████████████████████████████████████████████████████▊                                                                                                                                          | 498514/1595000 [01:47<04:08, 4420.23it/s]
+Drift detected | Model: logistic_regression | Tweet index: 498880 | Original index: 503880 | Date: 2009-05-30 06:40:35
+Training logistic_regression:  31%|██████████████████████████████████████████████████████████████▉                                                                                                                                          | 499895/1595000 [01:47<04:00, 4548.75it/s]Processed: 500000 tweets | Original index: 505000 | Model: logistic_regression | Accuracy: 0.6764 | Precision: 0.7279 | Recall: 0.7443 | F1: 0.7360
+Training logistic_regression:  35%|██████████████████████████████████████████████████████████████████████▏                                                                                                                                  | 557113/1595000 [02:00<03:45, 4604.00it/s]
+Drift detected | Model: logistic_regression | Tweet index: 557504 | Original index: 562504 | Date: 2009-05-30 19:50:52
+Training logistic_regression:  36%|█████████████████████████████████████████████████████████████████████████                                                                                                                                | 579858/1595000 [02:05<03:33, 4751.74it/s]
+Drift detected | Model: logistic_regression | Tweet index: 580192 | Original index: 585192 | Date: 2009-05-31 00:49:01
+Training logistic_regression:  38%|███████████████████████████████████████████████████████████████████████████▌                                                                                                                             | 599678/1595000 [02:09<03:32, 4680.47it/s]Processed: 600000 tweets | Original index: 605000 | Model: logistic_regression | Accuracy: 0.6762 | Precision: 0.7287 | Recall: 0.7455 | F1: 0.7370
+Training logistic_regression:  38%|████████████████████████████████████████████████████████████████████████████▎                                                                                                                            | 605685/1595000 [02:10<03:52, 4264.09it/s]
+Drift detected | Model: logistic_regression | Tweet index: 605792 | Original index: 610792 | Date: 2009-05-31 07:01:46
+Training logistic_regression:  42%|█████████████████████████████████████████████████████████████████████████████████████▎                                                                                                                   | 676864/1595000 [02:25<03:21, 4561.45it/s]
+Drift detected | Model: logistic_regression | Tweet index: 677120 | Original index: 682120 | Date: 2009-06-01 01:20:13
+Training logistic_regression:  44%|████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                                | 699889/1595000 [02:31<03:17, 4526.61it/s]Processed: 700000 tweets | Original index: 705000 | Model: logistic_regression | Accuracy: 0.6752 | Precision: 0.7273 | Recall: 0.7442 | F1: 0.7357
+Training logistic_regression:  49%|███████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                     | 787377/1595000 [02:49<02:50, 4748.28it/s]
+Drift detected | Model: logistic_regression | Tweet index: 787424 | Original index: 792424 | Date: 2009-06-02 01:19:35
+Training logistic_regression:  50%|████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                    | 799961/1595000 [02:52<03:10, 4174.09it/s]Processed: 800000 tweets | Original index: 805000 | Model: logistic_regression | Accuracy: 0.6747 | Precision: 0.7266 | Recall: 0.7435 | F1: 0.7349
+Training logistic_regression:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                       | 899609/1595000 [03:13<02:23, 4839.90it/s]Processed: 900000 tweets | Original index: 905000 | Model: logistic_regression | Accuracy: 0.6749 | Precision: 0.7262 | Recall: 0.7431 | F1: 0.7345
+Training logistic_regression:  59%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                  | 942060/1595000 [03:22<02:19, 4678.13it/s]
+Drift detected | Model: logistic_regression | Tweet index: 942528 | Original index: 947528 | Date: 2009-06-05 21:28:45
+Training logistic_regression:  62%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                             | 984184/1595000 [03:31<02:08, 4748.19it/s]
+Drift detected | Model: logistic_regression | Tweet index: 984384 | Original index: 989384 | Date: 2009-06-06 07:12:34
+Training logistic_regression:  63%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                           | 999749/1595000 [03:34<02:04, 4762.87it/s]Processed: 1000000 tweets | Original index: 1005000 | Model: logistic_regression | Accuracy: 0.6757 | Precision: 0.7274 | Recall: 0.7444 | F1: 0.7358
+Training logistic_regression:  67%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                  | 1068029/1595000 [03:48<01:45, 5001.12it/s]
+Drift detected | Model: logistic_regression | Tweet index: 1068160 | Original index: 1073160 | Date: 2009-06-07 00:34:03
+Training logistic_regression:  69%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                              | 1099500/1595000 [03:55<01:40, 4926.74it/s]Processed: 1100000 tweets | Original index: 1105000 | Model: logistic_regression | Accuracy: 0.6753 | Precision: 0.7273 | Recall: 0.7445 | F1: 0.7358
+Training logistic_regression:  69%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                              | 1100000/1595000 [03:55<01:40, 4923.23it/s]
+Drift detected | Model: logistic_regression | Tweet index: 1100288 | Original index: 1105288 | Date: 2009-06-07 07:59:14
+Training logistic_regression:  75%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                 | 1199635/1595000 [04:16<01:18, 5012.46it/s]Processed: 1200000 tweets | Original index: 1205000 | Model: logistic_regression | Accuracy: 0.6746 | Precision: 0.7260 | Recall: 0.7430 | F1: 0.7344
+Training logistic_regression:  80%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                       | 1277227/1595000 [04:33<01:04, 4961.12it/s]
+Drift detected | Model: logistic_regression | Tweet index: 1277408 | Original index: 1282408 | Date: 2009-06-15 23:24:12
+Training logistic_regression:  81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                     | 1299866/1595000 [04:37<00:59, 4981.42it/s]Processed: 1300000 tweets | Original index: 1305000 | Model: logistic_regression | Accuracy: 0.6741 | Precision: 0.7251 | Recall: 0.7419 | F1: 0.7334
+Training logistic_regression:  83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                  | 1320376/1595000 [04:41<00:55, 4911.97it/s]
+Drift detected | Model: logistic_regression | Tweet index: 1320416 | Original index: 1325416 | Date: 2009-06-16 09:03:07
+Training logistic_regression:  83%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                  | 1321843/1595000 [04:42<00:56, 4817.90it/s]
+Drift detected | Model: logistic_regression | Tweet index: 1321888 | Original index: 1326888 | Date: 2009-06-16 09:46:53
+Training logistic_regression:  88%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                        | 1399935/1595000 [04:58<00:42, 4591.94it/s]Processed: 1400000 tweets | Original index: 1405000 | Model: logistic_regression | Accuracy: 0.6926 | Precision: 0.7247 | Recall: 0.7418 | F1: 0.7331
+Training logistic_regression:  94%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████            | 1499715/1595000 [05:19<00:21, 4356.13it/s]Processed: 1500000 tweets | Original index: 1505000 | Model: logistic_regression | Accuracy: 0.7131 | Precision: 0.7247 | Recall: 0.7418 | F1: 0.7331
+Training logistic_regression: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1595000/1595000 [05:40<00:00, 4688.61it/s]
+                    model  tweet_index  original_tweet_index                 date            window_type  accuracy  precision    recall        f1  balanced_accuracy
+3185  logistic_regression      1593000               1598000  2009-06-25 09:30:31  cumulative_save_every  0.729804   0.724715  0.741774  0.733145           0.729795
+3186  logistic_regression      1593500               1598500  2009-06-25 09:45:04  cumulative_save_every  0.729888   0.724715  0.741774  0.733145           0.729883
+3187  logistic_regression      1594000               1599000  2009-06-25 10:01:34  cumulative_save_every  0.729973   0.724715  0.741774  0.733145           0.729972
+3188  logistic_regression      1594500               1599500  2009-06-25 10:14:17  cumulative_save_every  0.730058   0.724715  0.741774  0.733145           0.730060
+3189  logistic_regression      1595000               1600000  2009-06-25 10:28:31  cumulative_save_every  0.730142   0.724715  0.741774  0.733145           0.730148
+
+Training finished for logistic_regression.
+Metrics saved to: D:\MyStuff\shkola\TUKE\baka\Final\results\logistic_regression_metrics.csv
+Daily metrics saved to: D:\MyStuff\shkola\TUKE\baka\Final\results\logistic_regression_daily_metrics.csv
+
+Final cumulative metrics:
+                 model       window_type  tweets_processed  skip_rows  accuracy  precision    recall        f1  balanced_accuracy
+0  logistic_regression  final_cumulative           1595000       5000  0.730142   0.724715  0.741774  0.733145           0.730148
+Loading dataset into df, sorting by date and mapping target 4->1...
+Done!
+(1600000, 4)
+Skipped first 5000 rows. Online training starts from row 5001.
+
+Loading GloVe embeddings for arf...
+GloVe loaded.
+
+Training arf:   6%|█████████████▋                                                                                                                                                                                                             | 99991/1595000 [04:03<51:57, 479.59it/s]Processed: 100000 tweets | Original index: 105000 | Model: arf | Accuracy: 0.6652 | Precision: 0.6763 | Recall: 0.8182 | F1: 0.7405
+Training arf:   7%|██████████████▍                                                                                                                                                                                                         | 106799/1595000 [04:19<1:01:26, 403.73it/s]
+Drift detected | Model: arf | Tweet index: 106817 | Original index: 111817 | Date: 2009-05-02 02:01:47
+Training arf:  12%|██████████████████████████▉                                                                                                                                                                                             | 199033/1595000 [09:17<1:02:45, 370.69it/s]
+Drift detected | Model: arf | Tweet index: 199041 | Original index: 204041 | Date: 2009-05-10 03:13:06
+Training arf:  13%|███████████████████████████                                                                                                                                                                                             | 199969/1595000 [09:19<1:01:43, 376.72it/s]Processed: 200000 tweets | Original index: 205000 | Model: arf | Accuracy: 0.6682 | Precision: 0.6785 | Recall: 0.8196 | F1: 0.7424
+Training arf:  16%|██████████████████████████████████▉                                                                                                                                                                                     | 257568/1595000 [12:13<1:33:24, 238.64it/s]Training arf:  16%|██████████████████████████████████▉                                                                                                                                                  Training arf:  16%|██████████████████████████████████▉                                                                                                                                                  Training arf:  17%|█████████████████████████████████████▍                                                                                                                                                                                  | 276731/1595000 [13:25<1:13:53, 297.33it/s]
+Drift detected | Model: arf | Tweet index: 276737 | Original index: 281737 | Date: 2009-05-17 10:56:55
+Training arf:  18%|███████████████████████████████████████                                                                                                                                                                                   | 285698/1595000 [13:50<52:39, 414.44it/s]
+Drift detected | Model: arf | Tweet index: 285729 | Original index: 290729 | Date: 2009-05-17 17:08:18
+Training arf:  18%|███████████████████████████████████████                                                                                                                                                                                   | 286051/1595000 [13:51<47:42, 457.22it/s]
+Drift detected | Model: arf | Tweet index: 286081 | Original index: 291081 | Date: 2009-05-17 18:18:19
+Training arf:  18%|███████████████████████████████████████                                                                                                                                                                                   | 286231/1595000 [13:51<39:07, 557.51it/s]
+Drift detected | Model: arf | Tweet index: 286273 | Original index: 291273 | Date: 2009-05-17 18:27:17
+Training arf:  18%|███████████████████████████████████████                                                                                                                                                                                  | 286856/1595000 [13:51<15:34, 1399.33it/s]
+Drift detected | Model: arf | Tweet index: 286977 | Original index: 291977 | Date: 2009-05-17 20:28:16
+Training arf:  18%|███████████████████████████████████████▎                                                                                                                                                                                  | 287337/1595000 [13:52<25:13, 863.74it/s]
+Drift detected | Model: arf | Tweet index: 287361 | Original index: 292361 | Date: 2009-05-17 20:43:37
+Training arf:  18%|███████████████████████████████████████▎                                                                                                                                                                                  | 287630/1595000 [13:52<24:55, 874.23it/s]
+Drift detected | Model: arf | Tweet index: 287713 | Original index: 292713 | Date: 2009-05-17 21:10:05
+Training arf:  18%|███████████████████████████████████████▏                                                                                                                                                                                 | 288081/1595000 [13:53<16:34, 1314.43it/s]
+Drift detected | Model: arf | Tweet index: 288161 | Original index: 293161 | Date: 2009-05-17 21:30:12
+Training arf:  18%|███████████████████████████████████████▍                                                                                                                                                                                  | 288558/1595000 [13:53<24:48, 877.81it/s]
+Drift detected | Model: arf | Tweet index: 288641 | Original index: 293641 | Date: 2009-05-17 22:03:53
+Training arf:  18%|███████████████████████████████████████▍                                                                                                                                                                                  | 288773/1595000 [13:53<23:00, 946.46it/s]
+Drift detected | Model: arf | Tweet index: 288801 | Original index: 293801 | Date: 2009-05-17 22:10:56
+Training arf:  18%|███████████████████████████████████████▎                                                                                                                                                                                 | 288907/1595000 [13:54<20:47, 1046.84it/s]
+Drift detected | Model: arf | Tweet index: 288993 | Original index: 293993 | Date: 2009-05-17 22:31:41
+Training arf:  18%|███████████████████████████████████████▎                                                                                                                                                                                 | 289304/1595000 [13:54<18:02, 1205.80it/s]
+Drift detected | Model: arf | Tweet index: 289313 | Original index: 294313 | Date: 2009-05-17 22:40:19
+Training arf:  18%|███████████████████████████████████████▍                                                                                                                                                                                 | 289539/1595000 [13:54<20:32, 1059.53it/s]
+Drift detected | Model: arf | Tweet index: 289601 | Original index: 294601 | Date: 2009-05-17 22:51:53
+Training arf:  18%|███████████████████████████████████████▌                                                                                                                                                                                  | 289864/1595000 [13:54<25:16, 860.43it/s]
+Drift detected | Model: arf | Tweet index: 289921 | Original index: 294921 | Date: 2009-05-17 23:01:46
+Training arf:  18%|███████████████████████████████████████▋                                                                                                                                                                                  | 290123/1595000 [13:55<28:25, 764.92it/s]
+Drift detected | Model: arf | Tweet index: 290177 | Original index: 295177 | Date: 2009-05-17 23:05:54
+Training arf:  18%|███████████████████████████████████████▊                                                                                                                                                                                  | 290879/1595000 [13:56<41:43, 520.95it/s]
+Drift detected | Model: arf | Tweet index: 290881 | Original index: 295881 | Date: 2009-05-17 23:15:53
+Training arf:  18%|███████████████████████████████████████▊                                                                                                                                                                                  | 291618/1595000 [13:58<46:43, 464.97it/s]
+Drift detected | Model: arf | Tweet index: 291649 | Original index: 296649 | Date: 2009-05-17 23:28:43
+Training arf:  18%|████████████████████████████████████████                                                                                                                                                                                  | 292993/1595000 [14:01<46:10, 470.02it/s]
+Drift detected | Model: arf | Tweet index: 293025 | Original index: 298025 | Date: 2009-05-17 23:50:07
+Training arf:  19%|████████████████████████████████████████▉                                                                                                                                                                                 | 299952/1595000 [14:16<48:12, 447.70it/s]Processed: 300000 tweets | Original index: 305000 | Model: arf | Accuracy: 0.6767 | Precision: 0.6895 | Recall: 0.8277 | F1: 0.7523
+Training arf:  20%|██████████████████████████████████████████▉                                                                                                                                                                               | 314363/1595000 [14:51<54:38, 390.63it/s]
+Drift detected | Model: arf | Tweet index: 314369 | Original index: 319369 | Date: 2009-05-18 04:50:50
+Training arf:  21%|█████████████████████████████████████████████▋                                                                                                                                                                            | 333883/1595000 [15:32<50:07, 419.33it/s]
+Drift detected | Model: arf | Tweet index: 333921 | Original index: 338921 | Date: 2009-05-22 00:20:54
+Training arf:  22%|███████████████████████████████████████████████▊                                                                                                                                                                          | 349732/1595000 [16:06<46:01, 450.86it/s]
+Drift detected | Model: arf | Tweet index: 349761 | Original index: 354761 | Date: 2009-05-22 04:13:42
+Training arf:  23%|█████████████████████████████████████████████████▊                                                                                                                                                                        | 364369/1595000 [16:38<41:48, 490.64it/s]
+Drift detected | Model: arf | Tweet index: 364417 | Original index: 369417 | Date: 2009-05-22 07:23:15
+Training arf:  25%|██████████████████████████████████████████████████████▏                                                                                                                                                                   | 396782/1595000 [17:58<46:20, 430.95it/s]
+Drift detected | Model: arf | Tweet index: 396801 | Original index: 401801 | Date: 2009-05-28 23:25:36
+Training arf:  25%|██████████████████████████████████████████████████████▋                                                                                                                                                                   | 399953/1595000 [18:06<39:53, 499.29it/s]Processed: 400000 tweets | Original index: 405000 | Model: arf | Accuracy: 0.6780 | Precision: 0.6908 | Recall: 0.8412 | F1: 0.7586
+Training arf:  26%|███████████████████████████████████████████████████████▊                                                                                                                                                                  | 408041/1595000 [18:22<40:23, 489.80it/s]
+Drift detected | Model: arf | Tweet index: 408065 | Original index: 413065 | Date: 2009-05-29 07:38:07
+Training arf:  26%|███████████████████████████████████████████████████████▉                                                                                                                                                                  | 409235/1595000 [18:24<31:16, 631.86it/s]
+Drift detected | Model: arf | Tweet index: 409281 | Original index: 414281 | Date: 2009-05-29 07:59:05
+Training arf:  26%|████████████████████████████████████████████████████████                                                                                                                                                                  | 409983/1595000 [18:25<36:43, 537.70it/s]
+Drift detected | Model: arf | Tweet index: 410017 | Original index: 415017 | Date: 2009-05-29 08:09:47
+Training arf:  26%|████████████████████████████████████████████████████████▉                                                                                                                                                                 | 416505/1595000 [18:40<41:13, 476.41it/s]
+Drift detected | Model: arf | Tweet index: 416513 | Original index: 421513 | Date: 2009-05-29 10:04:45
+Training arf:  26%|█████████████████████████████████████████████████████████                                                                                                                                                                 | 417919/1595000 [18:43<45:15, 433.46it/s]
+Drift detected | Model: arf | Tweet index: 417921 | Original index: 422921 | Date: 2009-05-29 10:28:22
+Training arf:  26%|█████████████████████████████████████████████████████████▏                                                                                                                                                                | 418619/1595000 [18:45<42:07, 465.47it/s]
+Drift detected | Model: arf | Tweet index: 418625 | Original index: 423625 | Date: 2009-05-29 10:38:31
+Training arf:  26%|█████████████████████████████████████████████████████████▎                                                                                                                                                                | 418979/1595000 [18:46<46:54, 417.86it/s]
+Drift detected | Model: arf | Tweet index: 419009 | Original index: 424009 | Date: 2009-05-29 10:42:41
+Training arf:  27%|█████████████████████████████████████████████████████████▉                                                                                                                                                                | 424105/1595000 [18:57<45:16, 431.06it/s]
+Drift detected | Model: arf | Tweet index: 424129 | Original index: 429129 | Date: 2009-05-29 11:59:01
+Training arf:  27%|██████████████████████████████████████████████████████████                                                                                                                                                                | 424977/1595000 [18:59<42:45, 456.13it/s]
+Drift detected | Model: arf | Tweet index: 424993 | Original index: 429993 | Date: 2009-05-29 12:10:53
+Training arf:  27%|██████████████████████████████████████████████████████████▋                                                                                                                                                               | 428950/1595000 [19:08<41:23, 469.58it/s]
+Drift detected | Model: arf | Tweet index: 428961 | Original index: 433961 | Date: 2009-05-29 13:06:16
+Training arf:  27%|██████████████████████████████████████████████████████████▊                                                                                                                                                               | 430230/1595000 [19:11<48:53, 397.01it/s]
+Drift detected | Model: arf | Tweet index: 430241 | Original index: 435241 | Date: 2009-05-29 13:33:35
+Training arf:  27%|██████████████████████████████████████████████████████████▉                                                                                                                                                               | 431446/1595000 [19:14<41:40, 465.40it/s]
+Drift detected | Model: arf | Tweet index: 431489 | Original index: 436489 | Date: 2009-05-29 13:52:16
+Training arf:  28%|████████████████████████████████████████████████████████████▏                                                                                                                                                             | 440542/1595000 [19:35<43:03, 446.88it/s]
+Drift detected | Model: arf | Tweet index: 440545 | Original index: 445545 | Date: 2009-05-29 16:16:36
+Training arf:  28%|████████████████████████████████████████████████████████████▍                                                                                                                                                             | 441895/1595000 [19:38<48:45, 394.20it/s]
+Drift detected | Model: arf | Tweet index: 441921 | Original index: 446921 | Date: 2009-05-29 16:38:25
+Training arf:  28%|█████████████████████████████████████████████████████████████                                                                                                                                                             | 446610/1595000 [19:51<50:44, 377.19it/s]
+Drift detected | Model: arf | Tweet index: 446625 | Original index: 451625 | Date: 2009-05-29 17:41:07
+Training arf:  28%|█████████████████████████████████████████████████████████████                                                                                                                                                             | 446932/1595000 [19:52<51:23, 372.29it/s]
+Drift detected | Model: arf | Tweet index: 446945 | Original index: 451945 | Date: 2009-05-29 17:46:17
+Training arf:  29%|██████████████████████████████████████████████████████████████▊                                                                                                                                                           | 459903/1595000 [20:28<50:16, 376.24it/s]
+Drift detected | Model: arf | Tweet index: 459905 | Original index: 464905 | Date: 2009-05-29 20:39:56
+Training arf:  29%|████████████████████████████████████████████████████████████████                                                                                                                                                          | 468640/1595000 [20:54<51:14, 366.33it/s]
+Drift detected | Model: arf | Tweet index: 468673 | Original index: 473673 | Date: 2009-05-29 22:50:21
+Training arf:  30%|█████████████████████████████████████████████████████████████████▍                                                                                                                                                        | 479215/1595000 [21:22<32:30, 571.97it/s]
+Drift detected | Model: arf | Tweet index: 479233 | Original index: 484233 | Date: 2009-05-30 01:39:15
+Training arf:  31%|███████████████████████████████████████████████████████████████████▌                                                                                                                                                      | 493927/1595000 [21:53<36:53, 497.41it/s]
+Drift detected | Model: arf | Tweet index: 493953 | Original index: 498953 | Date: 2009-05-30 05:34:03
+Training arf:  31%|███████████████████████████████████████████████████████████████████▋                                                                                                                                                      | 494944/1595000 [21:55<40:47, 449.41it/s]
+Drift detected | Model: arf | Tweet index: 494977 | Original index: 499977 | Date: 2009-05-30 05:48:07
+Training arf:  31%|████████████████████████████████████████████████████████████████████▎                                                                                                                                                     | 499986/1595000 [22:06<39:57, 456.75it/s]Processed: 500000 tweets | Original index: 505000 | Model: arf | Accuracy: 0.6806 | Precision: 0.6934 | Recall: 0.8478 | F1: 0.7629
+Training arf:  35%|███████████████████████████████████████████████████████████████████████████▉                                                                                                                                              | 555152/1595000 [24:26<44:24, 390.29it/s]
+Drift detected | Model: arf | Tweet index: 555169 | Original index: 560169 | Date: 2009-05-30 19:18:53
+Training arf:  36%|███████████████████████████████████████████████████████████████████████████████▎                                                                                                                                          | 580353/1595000 [25:24<28:11, 599.90it/s]
+Drift detected | Model: arf | Tweet index: 580417 | Original index: 585417 | Date: 2009-05-31 00:52:02
+Training arf:  38%|█████████████████████████████████████████████████████████████████████████████████▊                                                                                                                                        | 598140/1595000 [25:54<34:41, 478.97it/s]
+Drift detected | Model: arf | Tweet index: 598145 | Original index: 603145 | Date: 2009-05-31 05:16:53
+Training arf:  38%|██████████████████████████████████████████████████████████████████████████████████                                                                                                                                        | 599985/1595000 [25:59<40:14, 412.04it/s]Processed: 600000 tweets | Original index: 605000 | Model: arf | Accuracy: 0.6811 | Precision: 0.6941 | Recall: 0.8510 | F1: 0.7646
+Training arf:  38%|███████████████████████████████████████████████████████████████████████████████████▊                                                                                                                                      | 613168/1595000 [26:28<31:36, 517.62it/s]
+Drift detected | Model: arf | Tweet index: 613185 | Original index: 618185 | Date: 2009-05-31 08:40:53
+Training arf:  42%|████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                                             | 674120/1595000 [28:49<34:14, 448.19it/s]
+Drift detected | Model: arf | Tweet index: 674145 | Original index: 679145 | Date: 2009-06-01 00:37:59
+Training arf:  43%|█████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                                            | 685106/1595000 [29:07<24:00, 631.44it/s]
+Drift detected | Model: arf | Tweet index: 685153 | Original index: 690153 | Date: 2009-06-01 03:17:26
+Training arf:  44%|███████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                                          | 699951/1595000 [29:36<29:22, 507.85it/s]Processed: 700000 tweets | Original index: 705000 | Model: arf | Accuracy: 0.6803 | Precision: 0.6927 | Recall: 0.8512 | F1: 0.7639
+Training arf:  48%|████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                                  | 761242/1595000 [32:21<43:38, 318.38it/s]
+Drift detected | Model: arf | Tweet index: 761249 | Original index: 766249 | Date: 2009-06-01 19:36:42
+Training arf:  48%|████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                                 | 765591/1595000 [32:32<28:54, 478.28it/s]
+Drift detected | Model: arf | Tweet index: 765633 | Original index: 770633 | Date: 2009-06-01 20:36:29
+Training arf:  49%|███████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                              | 788316/1595000 [33:20<21:30, 625.08it/s]
+Drift detected | Model: arf | Tweet index: 788385 | Original index: 793385 | Date: 2009-06-02 01:32:54
+Training arf:  50%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                            | 799955/1595000 [33:40<28:27, 465.69it/s]Processed: 800000 tweets | Original index: 805000 | Model: arf | Accuracy: 0.6797 | Precision: 0.6922 | Recall: 0.8499 | F1: 0.7630
+Training arf:  50%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                            | 802566/1595000 [33:46<31:01, 425.79it/s]
+Drift detected | Model: arf | Tweet index: 802593 | Original index: 807593 | Date: 2009-06-02 04:51:45
+Training arf:  51%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                           | 808755/1595000 [33:58<25:24, 515.83it/s]
+Drift detected | Model: arf | Tweet index: 808801 | Original index: 813801 | Date: 2009-06-02 06:10:10
+Training arf:  51%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                           | 809652/1595000 [34:00<27:36, 474.23it/s]
+Drift detected | Model: arf | Tweet index: 809665 | Original index: 814665 | Date: 2009-06-02 06:28:15
+Training arf:  51%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                           | 811508/1595000 [34:04<28:34, 457.00it/s]
+Drift detected | Model: arf | Tweet index: 811553 | Original index: 816553 | Date: 2009-06-02 06:59:09
+Training arf:  51%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                           | 812038/1595000 [34:05<22:32, 578.75it/s]
+Drift detected | Model: arf | Tweet index: 812065 | Original index: 817065 | Date: 2009-06-02 07:06:21
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                          | 814259/1595000 [34:09<27:04, 480.71it/s]
+Drift detected | Model: arf | Tweet index: 814273 | Original index: 819273 | Date: 2009-06-02 07:59:59
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                          | 814825/1595000 [34:11<26:49, 484.59it/s]
+Drift detected | Model: arf | Tweet index: 814849 | Original index: 819849 | Date: 2009-06-02 08:15:31
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                          | 815260/1595000 [34:12<27:10, 478.16it/s]
+Drift detected | Model: arf | Tweet index: 815265 | Original index: 820265 | Date: 2009-06-02 08:22:12
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                          | 815577/1595000 [34:12<20:35, 631.03it/s]
+Drift detected | Model: arf | Tweet index: 815585 | Original index: 820585 | Date: 2009-06-02 08:33:10
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                          | 815952/1595000 [34:13<19:37, 661.48it/s]
+Drift detected | Model: arf | Tweet index: 816033 | Original index: 821033 | Date: 2009-06-02 08:50:23
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                          | 816399/1595000 [34:13<20:03, 647.09it/s]
+Drift detected | Model: arf | Tweet index: 816449 | Original index: 821449 | Date: 2009-06-02 09:01:20
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                          | 816722/1595000 [34:14<17:34, 737.88it/s]
+Drift detected | Model: arf | Tweet index: 816801 | Original index: 821801 | Date: 2009-06-02 09:16:09
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                          | 816947/1595000 [34:14<14:29, 895.24it/s]
+Drift detected | Model: arf | Tweet index: 816961 | Original index: 821961 | Date: 2009-06-02 09:21:03
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                          | 817495/1595000 [34:15<16:02, 807.86it/s]
+Drift detected | Model: arf | Tweet index: 817505 | Original index: 822505 | Date: 2009-06-02 09:47:21
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                         | 818034/1595000 [34:15<10:33, 1227.30it/s]
+Drift detected | Model: arf | Tweet index: 818081 | Original index: 823081 | Date: 2009-06-02 10:18:55
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                          | 818371/1595000 [34:15<13:09, 983.65it/s]
+Drift detected | Model: arf | Tweet index: 818401 | Original index: 823401 | Date: 2009-06-02 10:25:13
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                          | 818472/1595000 [34:15<13:15, 975.89it/s]
+Drift detected | Model: arf | Tweet index: 818529 | Original index: 823529 | Date: 2009-06-02 10:33:33
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                          | 818924/1595000 [34:16<18:21, 704.45it/s]
+Drift detected | Model: arf | Tweet index: 818977 | Original index: 823977 | Date: 2009-06-02 10:55:46
+Training arf:  51%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                          | 819210/1595000 [34:17<18:42, 691.38it/s]
+Drift detected | Model: arf | Tweet index: 819297 | Original index: 824297 | Date: 2009-06-02 11:04:04
+Training arf:  51%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                          | 819530/1595000 [34:17<13:42, 943.34it/s]
+Drift detected | Model: arf | Tweet index: 819617 | Original index: 824617 | Date: 2009-06-02 11:13:59
+Training arf:  51%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                          | 819627/1595000 [34:17<13:36, 949.68it/s]
+Drift detected | Model: arf | Tweet index: 819713 | Original index: 824713 | Date: 2009-06-02 11:17:55
+Training arf:  51%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                         | 820758/1595000 [34:19<22:15, 579.53it/s]
+Drift detected | Model: arf | Tweet index: 820801 | Original index: 825801 | Date: 2009-06-02 11:56:20
+Training arf:  51%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                         | 821166/1595000 [34:20<22:14, 579.76it/s]
+Drift detected | Model: arf | Tweet index: 821217 | Original index: 826217 | Date: 2009-06-02 12:07:32
+Training arf:  52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                         | 821533/1595000 [34:20<18:37, 692.40it/s]
+Drift detected | Model: arf | Tweet index: 821601 | Original index: 826601 | Date: 2009-06-02 12:21:25
+Training arf:  52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                         | 821947/1595000 [34:21<15:55, 809.47it/s]
+Drift detected | Model: arf | Tweet index: 821985 | Original index: 826985 | Date: 2009-06-02 12:46:13
+Training arf:  52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                         | 822192/1595000 [34:21<16:54, 761.67it/s]
+Drift detected | Model: arf | Tweet index: 822241 | Original index: 827241 | Date: 2009-06-02 12:55:45
+Training arf:  52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                         | 822646/1595000 [34:22<18:35, 692.15it/s]
+Drift detected | Model: arf | Tweet index: 822721 | Original index: 827721 | Date: 2009-06-02 13:09:45
+Training arf:  52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                         | 823270/1595000 [34:22<17:26, 737.35it/s]
+Drift detected | Model: arf | Tweet index: 823329 | Original index: 828329 | Date: 2009-06-02 13:33:18
+Training arf:  52%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                         | 825651/1595000 [34:27<24:45, 517.77it/s]
+Drift detected | Model: arf | Tweet index: 825665 | Original index: 830665 | Date: 2009-06-02 15:17:23
+Training arf:  52%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                        | 829487/1595000 [34:35<26:35, 479.72it/s]
+Drift detected | Model: arf | Tweet index: 829537 | Original index: 834537 | Date: 2009-06-02 18:35:16
+Training arf:  53%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                     | 850599/1595000 [35:26<22:16, 556.92it/s]
+Drift detected | Model: arf | Tweet index: 850625 | Original index: 855625 | Date: 2009-06-03 01:04:35
+Training arf:  55%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                  | 874782/1595000 [36:17<24:26, 491.10it/s]
+Drift detected | Model: arf | Tweet index: 874785 | Original index: 879785 | Date: 2009-06-03 06:32:36
+Training arf:  55%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                 | 884824/1595000 [36:35<20:02, 590.41it/s]
+Drift detected | Model: arf | Tweet index: 884833 | Original index: 889833 | Date: 2009-06-03 09:40:54
+Training arf:  56%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                 | 885290/1595000 [36:36<15:04, 784.44it/s]
+Drift detected | Model: arf | Tweet index: 885313 | Original index: 890313 | Date: 2009-06-03 09:56:32
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                 | 885798/1595000 [36:36<18:49, 627.83it/s]
+Drift detected | Model: arf | Tweet index: 885825 | Original index: 890825 | Date: 2009-06-03 10:14:44
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                 | 886109/1595000 [36:37<19:58, 591.33it/s]
+Drift detected | Model: arf | Tweet index: 886113 | Original index: 891113 | Date: 2009-06-03 10:18:09
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                                | 886946/1595000 [36:39<23:38, 499.11it/s]
+Drift detected | Model: arf | Tweet index: 886977 | Original index: 891977 | Date: 2009-06-03 10:43:39
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                | 887306/1595000 [36:39<21:07, 558.19it/s]
+Drift detected | Model: arf | Tweet index: 887329 | Original index: 892329 | Date: 2009-06-03 10:54:21
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                | 887422/1595000 [36:39<21:21, 552.00it/s]
+Drift detected | Model: arf | Tweet index: 887425 | Original index: 892425 | Date: 2009-06-03 10:57:18
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                                | 887955/1595000 [36:40<21:26, 549.70it/s]
+Drift detected | Model: arf | Tweet index: 887969 | Original index: 892969 | Date: 2009-06-04 08:59:30
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                                | 888272/1595000 [36:41<19:55, 591.17it/s]
+Drift detected | Model: arf | Tweet index: 888289 | Original index: 893289 | Date: 2009-06-04 09:22:27
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                | 889198/1595000 [36:42<16:02, 733.42it/s]
+Drift detected | Model: arf | Tweet index: 889249 | Original index: 894249 | Date: 2009-06-04 09:46:57
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                | 889412/1595000 [36:43<17:18, 679.38it/s]
+Drift detected | Model: arf | Tweet index: 889473 | Original index: 894473 | Date: 2009-06-04 10:08:36
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                                                                                | 889564/1595000 [36:43<16:48, 699.33it/s]
+Drift detected | Model: arf | Tweet index: 889601 | Original index: 894601 | Date: 2009-06-04 10:10:55
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                | 890040/1595000 [36:44<18:30, 634.92it/s]
+Drift detected | Model: arf | Tweet index: 890081 | Original index: 895081 | Date: 2009-06-04 10:44:53
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                                | 890325/1595000 [36:44<17:22, 676.00it/s]
+Drift detected | Model: arf | Tweet index: 890337 | Original index: 895337 | Date: 2009-06-04 10:53:58
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                | 890883/1595000 [36:45<17:19, 677.16it/s]
+Drift detected | Model: arf | Tweet index: 890977 | Original index: 895977 | Date: 2009-06-04 11:39:48
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                                | 891414/1595000 [36:45<12:06, 968.56it/s]
+Drift detected | Model: arf | Tweet index: 891425 | Original index: 896425 | Date: 2009-06-04 12:31:58
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                               | 891631/1595000 [36:46<11:36, 1009.97it/s]
+Drift detected | Model: arf | Tweet index: 891649 | Original index: 896649 | Date: 2009-06-04 12:55:50
+Training arf:  56%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                                | 891732/1595000 [36:46<12:12, 959.75it/s]
+Drift detected | Model: arf | Tweet index: 891745 | Original index: 896745 | Date: 2009-06-04 12:59:48
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                | 893160/1595000 [36:48<20:10, 579.81it/s]
+Drift detected | Model: arf | Tweet index: 893185 | Original index: 898185 | Date: 2009-06-04 22:43:18
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                                | 893310/1595000 [36:48<17:40, 661.46it/s]
+Drift detected | Model: arf | Tweet index: 893313 | Original index: 898313 | Date: 2009-06-04 22:46:11
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                               | 894587/1595000 [36:51<24:03, 485.17it/s]
+Drift detected | Model: arf | Tweet index: 894625 | Original index: 899625 | Date: 2009-06-04 23:06:54
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                               | 894724/1595000 [36:51<20:54, 558.30it/s]
+Drift detected | Model: arf | Tweet index: 894785 | Original index: 899785 | Date: 2009-06-04 23:09:05
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                               | 895179/1595000 [36:52<19:35, 595.26it/s]
+Drift detected | Model: arf | Tweet index: 895233 | Original index: 900233 | Date: 2009-06-04 23:18:39
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                               | 895551/1595000 [36:52<17:13, 677.10it/s]
+Drift detected | Model: arf | Tweet index: 895553 | Original index: 900553 | Date: 2009-06-05 08:37:27
+Training arf:  56%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                               | 896229/1595000 [36:54<23:51, 488.05it/s]
+Drift detected | Model: arf | Tweet index: 896257 | Original index: 901257 | Date: 2009-06-05 08:45:58
+Training arf:  56%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                               | 899969/1595000 [37:02<29:35, 391.50it/s]Processed: 900000 tweets | Original index: 905000 | Model: arf | Accuracy: 0.6810 | Precision: 0.6931 | Recall: 0.8489 | F1: 0.7631
+Training arf:  57%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                              | 901259/1595000 [37:05<26:20, 438.92it/s]
+Drift detected | Model: arf | Tweet index: 901281 | Original index: 906281 | Date: 2009-06-05 09:57:56
+Training arf:  57%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                              | 901363/1595000 [37:05<25:00, 462.27it/s]
+Drift detected | Model: arf | Tweet index: 901409 | Original index: 906409 | Date: 2009-06-05 10:01:36
+Training arf:  57%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                              | 901879/1595000 [37:06<19:42, 586.27it/s]
+Drift detected | Model: arf | Tweet index: 901921 | Original index: 906921 | Date: 2009-06-05 10:14:06
+Training arf:  57%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                              | 904838/1595000 [37:13<28:47, 399.56it/s]
+Drift detected | Model: arf | Tweet index: 904865 | Original index: 909865 | Date: 2009-06-05 11:00:22
+Training arf:  57%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                              | 905116/1595000 [37:14<31:40, 363.02it/s]
+Drift detected | Model: arf | Tweet index: 905153 | Original index: 910153 | Date: 2009-06-05 11:07:09
+Training arf:  57%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                             | 909087/1595000 [37:25<25:55, 440.95it/s]
+Drift detected | Model: arf | Tweet index: 909121 | Original index: 914121 | Date: 2009-06-05 12:30:24
+Training arf:  57%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                             | 910109/1595000 [37:27<28:09, 405.31it/s]
+Drift detected | Model: arf | Tweet index: 910145 | Original index: 915145 | Date: 2009-06-05 12:46:00
+Training arf:  57%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                                                                             | 913090/1595000 [37:35<27:19, 415.93it/s]
+Drift detected | Model: arf | Tweet index: 913121 | Original index: 918121 | Date: 2009-06-05 13:43:13
+Training arf:  57%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                                             | 914645/1595000 [37:38<25:21, 447.13it/s]
+Drift detected | Model: arf | Tweet index: 914657 | Original index: 919657 | Date: 2009-06-05 14:07:08
+Training arf:  58%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                                                            | 917946/1595000 [37:46<27:35, 408.91it/s]
+Drift detected | Model: arf | Tweet index: 917985 | Original index: 922985 | Date: 2009-06-05 14:51:23
+Training arf:  59%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                         | 941440/1595000 [38:48<25:49, 421.85it/s]
+Drift detected | Model: arf | Tweet index: 941441 | Original index: 946441 | Date: 2009-06-05 21:12:33
+Training arf:  59%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                         | 943215/1595000 [38:51<16:36, 653.87it/s]
+Drift detected | Model: arf | Tweet index: 943233 | Original index: 948233 | Date: 2009-06-05 21:40:14
+Training arf:  60%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                       | 956074/1595000 [39:16<20:11, 527.41it/s]
+Drift detected | Model: arf | Tweet index: 956097 | Original index: 961097 | Date: 2009-06-06 00:31:06
+Training arf:  60%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                      | 963695/1595000 [39:34<19:31, 538.70it/s]
+Drift detected | Model: arf | Tweet index: 963745 | Original index: 968745 | Date: 2009-06-06 02:23:13
+Training arf:  61%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▉                                                                                      | 965246/1595000 [39:37<19:48, 529.82it/s]
+Drift detected | Model: arf | Tweet index: 965281 | Original index: 970281 | Date: 2009-06-06 02:47:43
+Training arf:  61%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▏                                                                                     | 967191/1595000 [39:41<24:38, 424.54it/s]
+Drift detected | Model: arf | Tweet index: 967201 | Original index: 972201 | Date: 2009-06-06 03:17:03
+Training arf:  61%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                                                     | 967905/1595000 [39:43<21:48, 479.23it/s]
+Drift detected | Model: arf | Tweet index: 967937 | Original index: 972937 | Date: 2009-06-06 03:28:16
+Training arf:  63%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                                 | 999978/1595000 [41:03<24:43, 401.07it/s]Processed: 1000000 tweets | Original index: 1005000 | Model: arf | Accuracy: 0.6814 | Precision: 0.6934 | Recall: 0.8511 | F1: 0.7642
+Training arf:  67%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                                                        | 1066288/1595000 [44:24<29:37, 297.44it/s]
+Drift detected | Model: arf | Tweet index: 1066305 | Original index: 1071305 | Date: 2009-06-07 00:07:54
+Training arf:  69%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                    | 1092702/1595000 [45:15<19:42, 424.94it/s]
+Drift detected | Model: arf | Tweet index: 1092705 | Original index: 1097705 | Date: 2009-06-07 06:25:04
+Training arf:  69%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                                   | 1099978/1595000 [45:31<18:03, 456.91it/s]Processed: 1100000 tweets | Original index: 1105000 | Model: arf | Accuracy: 0.6817 | Precision: 0.6938 | Recall: 0.8519 | F1: 0.7647
+Training arf:  74%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▋                                                        | 1180765/1595000 [50:10<19:06, 361.36it/s]
+Drift detected | Model: arf | Tweet index: 1180769 | Original index: 1185769 | Date: 2009-06-15 02:17:08
+Training arf:  75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                                     | 1199970/1595000 [50:52<15:15, 431.62it/s]Processed: 1200000 tweets | Original index: 1205000 | Model: arf | Accuracy: 0.6808 | Precision: 0.6929 | Recall: 0.8493 | F1: 0.7632
+Training arf:  75%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▍                                                     | 1201455/1595000 [50:55<13:54, 471.35it/s]
+Drift detected | Model: arf | Tweet index: 1201473 | Original index: 1206473 | Date: 2009-06-15 06:42:21
+Training arf:  81%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                          | 1284547/1595000 [54:46<16:35, 311.91it/s]
+Drift detected | Model: arf | Tweet index: 1284577 | Original index: 1289577 | Date: 2009-06-16 00:58:48
+Training arf:  82%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▊                                        | 1299992/1595000 [55:22<10:39, 461.34it/s]Processed: 1300000 tweets | Original index: 1305000 | Model: arf | Accuracy: 0.6804 | Precision: 0.6926 | Recall: 0.8469 | F1: 0.7621
+Training arf:  82%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▎                                       | 1303276/1595000 [55:28<10:29, 463.36it/s]
+Drift detected | Model: arf | Tweet index: 1303297 | Original index: 1308297 | Date: 2009-06-16 05:11:28
+Training arf:  82%|██████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████                                       | 1308576/1595000 [55:40<10:09, 469.93it/s]
+Drift detected | Model: arf | Tweet index: 1308609 | Original index: 1313609 | Date: 2009-06-16 06:17:31
+Training arf:  83%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                                     | 1320037/1595000 [56:11<11:27, 399.82it/s]
+Drift detected | Model: arf | Tweet index: 1320065 | Original index: 1325065 | Date: 2009-06-16 08:52:08
+Training arf:  88%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████▌                          | 1399894/1595000 [56:51<01:34, 2065.23it/s]Processed: 1400000 tweets | Original index: 1405000 | Model: arf | Accuracy: 0.6985 | Precision: 0.6922 | Recall: 0.8470 | F1: 0.7618
+Training arf:  94%|███████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████             | 1499840/1595000 [57:39<00:45, 2079.79it/s]Processed: 1500000 tweets | Original index: 1505000 | Model: arf | Accuracy: 0.7186 | Precision: 0.6922 | Recall: 0.8470 | F1: 0.7618
+Training arf: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 1595000/1595000 [58:25<00:00, 455.02it/s]
+     model  tweet_index  original_tweet_index                 date            window_type  accuracy  precision    recall        f1  balanced_accuracy
+3185   arf      1593000               1598000  2009-06-25 09:30:31  cumulative_save_every  0.734990   0.692194  0.847038  0.761827           0.734907
+3186   arf      1593500               1598500  2009-06-25 09:45:04  cumulative_save_every  0.735074   0.692194  0.847038  0.761827           0.735025
+3187   arf      1594000               1599000  2009-06-25 10:01:34  cumulative_save_every  0.735157   0.692194  0.847038  0.761827           0.735144
+3188   arf      1594500               1599500  2009-06-25 10:14:17  cumulative_save_every  0.735240   0.692194  0.847038  0.761827           0.735262
+3189   arf      1595000               1600000  2009-06-25 10:28:31  cumulative_save_every  0.735323   0.692194  0.847038  0.761827           0.735380
+
+Training finished for arf.
+Metrics saved to: D:\MyStuff\shkola\TUKE\baka\Final\results\arf_metrics.csv
+Daily metrics saved to: D:\MyStuff\shkola\TUKE\baka\Final\results\arf_daily_metrics.csv
+
+Final cumulative metrics:
+  model       window_type  tweets_processed  skip_rows  accuracy  precision    recall        f1  balanced_accuracy
+0   arf  final_cumulative           1595000       5000  0.735323   0.692194  0.847038  0.761827            0.73538
