@@ -33,9 +33,10 @@ pip install scikit-learn
 pip install gensim
 pip install matplotlib
 ```
-
----
-
+Ak sa počas inštalácie river nenainštaluje pandas tak aj:
+```bash
+pip install pandas
+```
 ## Štruktúra projektu
 
 ```
