@@ -8,7 +8,23 @@ Repozitár obsahuje implementáciu systému pre analýzu sentimentu na dátovýc
 
 ## Požiadavky
 
-Na spustenie skriptov je potrebné mať nainštalované nasledujúce knižnice. Každú nainštalujete samostatným príkazom:
+### 1. Vytvorenie virtuálneho prostredia
+
+Pred inštaláciou knižníc je odporúčané vytvoriť virtuálne prostredie pre Python 3.12:
+
+```bash
+py -3.12 -m venv venv
+```
+
+Následne virtuálne prostredie aktivujte:
+
+```bash
+venv\Scripts\Activate.ps1
+```
+
+### 2. Inštalácia knižníc
+
+Po aktivácii virtuálneho prostredia nainštalujte potrebné knižnice:
 
 ```bash
 pip install river
@@ -140,25 +156,29 @@ Grafy sú uložené do priečinka `results/`:
 ## Odporúčané poradie spustenia
 
 ```bash
-# 1. Inštalácia závislostí
+# 1. Vytvorenie a aktivácia virtuálneho prostredia
+py -3.12 -m venv venv
+venv\Scripts\Activate.ps1
+
+# 2. Inštalácia závislostí
 pip install river
 pip install numpy
 pip install scikit-learn
 pip install gensim
 pip install matplotlib
 
-# 2. Príprava dát
+# 3. Príprava dát
 # - Stiahnuť sentiment140.csv a umiestniť do data/
 # - Stiahnuť glove.twitter.27B.50d.txt a umiestniť do data/
 
-# 3. Trénovanie online modelov
+# 4. Trénovanie online modelov
 cd src
 python3 train_online.py
 
-# 4. Trénovanie statických modelov
+# 5. Trénovanie statických modelov
 python3 train_static.py
 
-# 5. Vizualizácia výsledkov
+# 6. Vizualizácia výsledkov
 python3 plot_metrics.py
 ```
 
