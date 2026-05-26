@@ -3,8 +3,8 @@
 Systémová príručka na popis a spustenie všetkých kódov v tomto úložisku.
 
 Repozitár obsahuje implementáciu systému pre analýzu sentimentu na dátových prúdoch krátkych textov. Súčasťou je simulácia chronologického dátového prúdu na datasete Sentiment140, predspracovanie textu, vektorizácia pomocou predtrénovaných GloVe Twitter embeddingov a trénovanie troch online modelov (Gaussian Naive Bayes, Logistická regresia, Adaptive Random Forest) s priebežnou detekciou konceptového driftu pomocou metódy ADWIN. Online modely sú následne porovnané s ich statickými ekvivalentmi natrénovanými pomocou knižnice scikit-learn.
-
 Názov bakalárskej práce: 	Analýza sentimentu na dátových prúdoch krátkych textov.
+
 ---
 
 ## Požiadavky
