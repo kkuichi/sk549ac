@@ -16,7 +16,7 @@ Pred inštaláciou knižníc je odporúčané vytvoriť virtuálne prostredie pr
 py -3.12 -m venv venv
 ```
 
-Následne virtuálne prostredie aktivujte:
+Následne virtuálne prostredie aktivujte v priečinku projektu:
 
 ```bash
 venv\Scripts\Activate.ps1
