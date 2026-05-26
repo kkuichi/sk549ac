@@ -114,7 +114,7 @@ Metriky sú ukladané každých 500 spracovaných vzoriek:
 Skript trénuje dva statické modely na úvodných 5000 vzorkách datasetu pomocou knižnice scikit-learn. Po natrénovaní sú modely vyhodnotené na zvyšku dátového prúdu, pričom metriky sú počítané kumulatívne v rovnakých intervaloch ako pri online modeloch.
 
 ### Použitie
-
+v priečinku projektu:
 ```bash
 cd src
 python3 train_static.py
