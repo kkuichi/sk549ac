@@ -83,7 +83,7 @@ Stiahnite súbor `glove.twitter.27B.zip`, rozbaľte ho a súbor `glove.twitter.2
 Skript trénuje tri online modely na chronologicky zoradenom dátovom prúde pomocou princípu prequential evaluation (test-then-train). Prvých 5000 vzoriek je preskočených — tie sú vyhradené pre tréning statických modelov. Súbežne s trénovaním prebieha detekcia konceptového driftu pomocou metódy ADWIN.
 
 ### Použitie
-
+v priečinku projektu:
 ```bash
 cd src
 python3 train_online.py
