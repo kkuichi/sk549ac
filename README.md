@@ -190,3 +190,6 @@ python3 plot_metrics.py
 ## Reprodukovateľnosť
 
 Adaptive Random Forest používa pevný seed `42` (`seed=42`). Statické modely používajú `random_state=42`. Výsledky sa môžu mierne líšiť v závislosti od verzie knižníc a operačného systému.
+
+## Odkaz na repozitár k bakalárskej práci
+https://github.com/kkuichi/sk549ac
