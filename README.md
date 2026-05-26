@@ -138,7 +138,7 @@ python3 train_static.py
 Skript načíta výstupné CSV súbory všetkých modelov a vygeneruje porovnávacie grafy kumulatívneho vývoja metrík v čase. Do grafov sú zakreslené konsenzuálne pásma konceptového driftu — oblasti, v ktorých všetky tri online modely detegovали drift v rozpätí 10 000 vzoriek.
 
 ### Použitie
-
+v priečinku projektu:
 ```bash
 cd src
 python3 plot_metrics.py
