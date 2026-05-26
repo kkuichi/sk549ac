@@ -1,4 +1,4 @@
-# Systémová príručka
+# Použivateľská a systémová príručka
 
 Systémová príručka na popis a spustenie všetkých kódov v tomto úložisku.
 
