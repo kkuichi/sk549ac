@@ -12,7 +12,7 @@ Názov bakalárskej práce: 	Analýza sentimentu na dátových prúdoch krátkyc
 
 ### 1. Vytvorenie virtuálneho prostredia
 
-Pred inštaláciou knižníc je odporúčané vytvoriť virtuálne prostredie pre Python 3.12:
+Pred inštaláciou knižníc je odporúčané vytvoriť virtuálne prostredie pre Python 3.12, v priečinku projektu:
 
 ```bash
 py -3.12 -m venv venv
