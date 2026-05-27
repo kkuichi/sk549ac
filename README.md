@@ -34,6 +34,7 @@ pip install numpy
 pip install scikit-learn
 pip install gensim
 pip install matplotlib
+pip install tqdm
 ```
 Ak sa počas inštalácie river nenainštaluje pandas tak aj:
 ```bash
